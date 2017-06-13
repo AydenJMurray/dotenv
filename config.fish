@@ -1,6 +1,9 @@
 set -x PATH $PATH ~/code/android-studio/bin
 
 alias androidstudio=studio.sh
+alias supdate='sudo apt update'
+alias supgrade='sudo apt upgrade'
+alias sinstall='sudo apt install'
 
 # Easily edit
 abbr -a efish 'vim ~/.config/fish/config.fish'
