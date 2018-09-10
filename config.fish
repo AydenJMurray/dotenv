@@ -24,6 +24,3 @@ abbr -a gl git log
 
 # xdg-open is a pain to type
 alias a=xdg-open
-
-#Setup DEY toolkit environment
-bass source /opt/dey/2.4-r1/environment-setup-cortexa9hf-neon-dey-linux-gnueabi

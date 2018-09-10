@@ -21,13 +21,7 @@ set number	"Set line numbers
 "Enable Solarized Theme
 syntax enable
 set background=dark
-
-if has("patch-8.4-1799" || has("nvim"))
-  set termguicolors
-  colorscheme solarized8
-else
-  colorscheme solarized
-endif
+"colorscheme solarized
 
 let mapleader ="\<Space>"
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
