@@ -21,7 +21,7 @@ set number	"Set line numbers
 "Enable Solarized Theme
 syntax enable
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 
 let mapleader ="\<Space>"
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>

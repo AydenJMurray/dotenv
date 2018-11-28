@@ -5,6 +5,9 @@ alias supdate='sudo apt update'
 alias supgrade='sudo apt upgrade'
 alias sinstall='sudo apt install'
 
+
+abbr -a sourceyocto 'bass source /opt/dey/2.2-r3/environment-setup-cortexa7hf-neon-dey-linux-gnueabi'
+
 # Easily edit and source this file
 abbr -a efish 'vim ~/.config/fish/config.fish'
 abbr -a sfish 'source ~/.config/fish/config.fish'
