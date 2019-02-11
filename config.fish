@@ -1,8 +1,9 @@
 #To add to path env: set -x PATH $PATH $EXTRA_THINGS
 
-set -x FLUTTER_HOME /home/ayden/code/flutter/bin
+set -x FLUTTER_HOME /home/ayden/development/flutter/bin
 set -x ANDROID_HOME /home/ayden/Android/Sdk
-set -x PATH $PATH $FLUTTER_HOME $ANDROID_HOME
+set -x ANDROID_STUDIO_HOME /home/ayden/development/android-studio/bin
+set -x PATH $PATH $FLUTTER_HOME $ANDROID_HOME $ANDROID_STUDIO_HOME
 
 set magenta (set_color magenta)
 set yellow (set_color yellow)
